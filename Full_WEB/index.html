@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Agecy | Connect the Beauties</title>
+    <link rel="shortcut icon" href="./asstes/logo/connect_logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+        .team-box {
+        border: 2px solid #ccc;
+      }
+      </style>
+      <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
+      >
+</head>
+<body>
+    <header class="bg-white">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between p-2 lg:px-8" aria-label="Global">
+          <div class="hidden lg:flex">
+            <a href="#" class="-m-1.5 p-1.5 ">
+              <span class="sr-only">Nexus UI</span>
+              <img class="w-40" src="./img/connct_logo_nav.png" alt="" >
+            </a>
+          </div>
+          </div>
+          <div class="flex lg:hidden justify-between items-center w-full">
+            <img src="./asstes/logo/connct_logo_nav.png" alt="">
+            <button type="button" class="m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+              <span class="sr-only">Open main menu</span>
+              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </button>
+          </div>
+          
+          <div class="hidden lg:flex lg:gap-x-12 items-center">
+            <div class="relative">
+              <a href="#" type="button" class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900" aria-expanded="false">
+                Team
+                <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                </svg>
+              </a>
+              <div class="absolute hidden -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                <div class="p-4">
+                  <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
+                    <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                      <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
+                      </svg>
+                    </div>
+                    <div class="flex-auto">
+                      <a href="#" class="block font-semibold text-gray-900">
+                        Layouts
+                        <span class="absolute inset-0"></span>
+                      </a>
+                      <p class="mt-1 text-gray-600">World class design layouts</p>
+                    </div>
+                  </div>
+                  <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
+                    <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                      <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59" />
+                      </svg>
+                    </div>
+                    <div class="flex-auto">
+                      <a href="#" class="block font-semibold text-gray-900">
+                        Utilities
+                        <span class="absolute inset-0"></span>
+                      </a>
+                      <p class="mt-1 text-gray-600">World class design Utilities</p>
+                    </div>
+                  </div>
+                  <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
+                    <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                      <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
+                      </svg>
+                    </div>
+                    <div class="flex-auto">
+                      <a href="#" class="block font-semibold text-gray-900">
+                        Themes
+                        <span class="absolute inset-0"></span>
+                      </a>
+                      <p class="mt-1 text-gray-600">World class design Themes</p>
+                    </div>
+                  </div>
+                  <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
+                    <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                      <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 16.875h3.375m0 0h3.375m-3.375 0V13.5m0 3.375v3.375M6 10.5h2.25a2.25 2.25 0 002.25-2.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v2.25A2.25 2.25 0 006 10.5zm0 9.75h2.25A2.25 2.25 0 0010.5 18v-2.25a2.25 2.25 0 00-2.25-2.25H6a2.25 2.25 0 00-2.25 2.25V18A2.25 2.25 0 006 20.25zm9.75-9.75H18a2.25 2.25 0 002.25-2.25V6A2.25 2.25 0 0018 3.75h-2.25A2.25 2.25 0 0013.5 6v2.25a2.25 2.25 0 002.25 2.25z" />
+                      </svg>
+                    </div>
+                    <div class="flex-auto">
+                      <a href="#" class="block font-semibold text-gray-900">
+                        Integrations
+                        <span class="absolute inset-0"></span>
+                      </a>
+                      <p class="mt-1 text-gray-600">Connect with third-party tools</p>
+                    </div>
+                  </div>
+                  <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
+                    <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                      <svg class="h-6 w-6 text-gray-600 group-hover:text-indigo-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+                      </svg>
+                    </div>
+                    <div class="flex-auto">
+                      <a href="#" class="block font-semibold text-gray-900">
+                        Automations
+                        <span class="absolute inset-0"></span>
+                      </a>
+                      <p class="mt-1 text-gray-600">Build strategic funnels that will convert</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+                  <a href="#" class="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100">
+                    <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M2 10a8 8 0 1116 0 8 8 0 01-16 0zm6.39-2.908a.75.75 0 01.766.027l3.5 2.25a.75.75 0 010 1.262l-3.5 2.25A.75.75 0 018 12.25v-4.5a.75.75 0 01.39-.658z" clip-rule="evenodd" />
+                    </svg>
+                    Watch demo
+                  </a>
+                  <a href="#" class="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100">
+                    <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 013.5 2h1.148a1.5 1.5 0 011.465 1.175l.716 3.223a1.5 1.5 0 01-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 006.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 011.767-1.052l3.223.716A1.5 1.5 0 0118 15.352V16.5a1.5 1.5 0 01-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 012.43 8.326 13.019 13.019 0 012 5V3.5z" clip-rule="evenodd" />
+                    </svg>
+                    Contact sales
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Design</a>
+            <a href="#" class="text-sm font-semibold leading-6 text-gray-900">About</a>
+            <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Portfolio</a>
+            <a href="#" class="text-sm font-semibold leading-6 text-gray-900 hover:bg-violet-500 p-2 hover:text-white rounded-md transition-all duration-500">Log in <span aria-hidden="true">&rarr;</span></a>
+          </div>
+          
+        </nav>
+        <!-- Mobile menu, show/hide based on menu open state. -->
+        <div class="lg:hidde hidden" role="dialog" aria-modal="true">
+          <!-- Background backdrop, show/hide based on slide-over state. -->
+          <div class="fixed inset-0 z-10"></div>
+          <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div class="flex items-center justify-between">
+              <a href="#" class="-m-1.5 p-1.5">
+                <img class="h-8 w-auto" src="./asstes/logo/favicon_edit_need.png" alt="">
+              </a>
+              <div class="border-gray-500 focus:border-violet-500 border-2 justify-between px-2 items-center rounded-md md:hidden flex">
+                <input type="search" class="outline-none border-none px-2 py-1 focus:ring-0">
+                <button class="hidden" type="submit">
+                  <i class="fa-regular fa-search"></i>
+                </button>
+                <div class="px-[3px] border border-gray-300 rounded-md text-gray-400">⌘K</div>
+              </div>
+              <div class="">
+                
+                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                    <span class="sr-only">Close menu</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+              </div>
+            </div>
+            <div class="mt-6 flow-root">
+              <div class="-my-6 divide-y divide-gray-500/10">
+                <div class="space-y-2 py-6">
+                  <div class="-mx-3">
+                    <button type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" aria-controls="disclosure-1" aria-expanded="false">
+                      Components
+                      <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                      </svg>
+                    </button>
+                    <!-- 'Product' sub-menu, show/hide based on menu state. -->
+                    <div class="mt-2 space-y-2" id="disclosure-1">
+                      <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Layouts</a>
+                      <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Utilities</a>
+                      <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Themes</a>
+                      <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Integrations</a>
+                      <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Automations</a>
+                      <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Watch demo</a>
+                      <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact sales</a>
+                    </div>
+                  </div>
+                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Design</a>
+                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">About</a>
+                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Development</a>
+                </div>
+                <div class="py-6">
+                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Hero starts here -->
+      <div
+      class="relative outline-0  flex lg:justify-between items-center flex-col-reverse  md:flex-row mx-auto px-3 md:mt-5 md:py-8 md:px-7 lg:px-10 xl:px-20 2xl:px-20 "
+    >
+      <div class="hero__text 2xl:w-[800px] m-3">
+        <p class="md:text-xl lg:text-2xl xl:text-2xl 2xl:text-4xl text-violet-500">Connect Digital!</p>
+        <h1 class="text-[38px] lg:text-[44px] xl:text-[55px] 2xl:text-[80px] font-bold my-3">
+          Work that we <span class="text-violet-600">produce</span> for our <span class="text-violet-500">clients</span>
+        </h1>
+        <h3 class=" 2xl:text-2xl 2xl:py-4">
+          At Connect Agency, we specialize in graphic design, SEO, and web development to enhance your brand's digital presence. Our team is dedicated to crafting visually engaging designs, optimizing your online reach, and building responsive websites that drive results.
+        </h3>
+        <a href="#"
+          ><button class="outline-0  text-white px-5 py-3 xl:px-8 xl:py-4 2xl:px-10 2xl:py-5 2xl:text-2xl mt-4 rounded-full bg-gradient-to-tr to-blue-400 from-violet-500 hover:bg-gradient-to-br hover:to-blue-500 hover:from-violet-500 duration-150">
+            Get more details
+          </button></a
+        >
+      </div>
+      <img src="./img/hero.png" class="w-[70%] md:w-[35%] xl:w-[45%] 2xl:w-[40%]" />
+    </div>
+    <!--  -->
+    <div class="hidden relative isolate px-3 pt-8 lg:px-12">
+      <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+        <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+      </div>
+      <div class="mx-auto max-w-2xl py-3 sm:py-4 lg:py-8">
+        <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+          <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+            Announcing our next round of funding. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </div>
+        <div class="text-center">
+          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Data to enrich your online business</h1>
+          <p class="mt-6 text-lg leading-8 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+            <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+        <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+      </div>
+    </div>
+  </div>
+      <!-- Hero ends here -->
+
+
+
+
+
+
+
+      <!-- About sarat here -->
+      <section>
+        <div
+        class="flex flex-col md:flex-row md:justify-center justify-between items-center m-5 md:m-16"
+      >
+        <img
+          src="./about.png"
+          class="w-[80%] sm:w-[50%] md:w-[25%] lg:w-[30%] rounded-md"
+        />
+        <div class="m-0 md:m-12">
+          <div class="">
+            <h1
+              class="text-black py-10 text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-bold"
+            >
+              About Our <span class="text-indigo-600">Agency</span>
+            </h1>
+          </div>
+          <p class="text-[18px]">
+        Connect Agency is your go-to partner for exceptional digital services, specializing in graphic design, SEO, and web development. Our creative team delivers visually compelling designs that capture your brand’s essence, while our SEO experts ensure your website ranks high and reaches the right audience. We build responsive, user-friendly websites that offer a seamless experience across all devices, helping your business stand out in the digital space. At Connect Agency, we prioritize your goals and work closely with you to deliver tailored solutions that drive measurable success. Let us help you elevate your brand and achieve your digital objectives.
+          </p>
+        </div>
+      </div>
+      </section>
+      <!-- About ends here -->
+
+
+
+
+
+
+      <!-- services start here -->
+     <section>
+      <div class="mb-36  px-5">
+        <div class="text-center">
+          <h1
+            class="text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-bold my-10 text-black"
+          >
+            <span class="text-indigo-600">Our</span> All Services
+          </h1>
+          <p class="text-xl 2xl:text-2xl">
+            At Connect Agency, we provide top-notch graphic design, SEO, and web
+            development services that transform your brand's digital presence. Our
+            team combines creativity and technical expertise to deliver tailored
+            solutions that engage your audience and achieve your business goals.
+          </p>
+        </div>
+        <center>
+          <div class=" justify-center flex-col md:flex-row">
+            <div class="mt-11 text-center inline-block cursor-pointer ">
+              <div class="p-10 bg-[#2f20ba38] m-10 rounded-full hover:scale-110 duration-200">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" color="#2f20ba" fill="none">
+                  <path d="M20 10.128C20 6.29644 20 4.38064 18.8284 3.19032C17.6569 2 15.7712 2 12 2H10C6.22876 2 4.34315 2 3.17157 3.19032C2 4.38064 2 6.29644 2 10.128C2 13.9596 2 15.8754 3.17157 17.0657C3.64118 17.5428 4.2255 17.8287 5 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                  <path d="M22 17.5C22 15.6251 22 14.6877 21.5225 14.0305C21.3683 13.8183 21.1817 13.6317 20.9695 13.4775C20.3123 13 19.3749 13 17.5 13H12.5C10.6251 13 9.6877 13 9.03054 13.4775C8.8183 13.6317 8.63166 13.8183 8.47746 14.0305C8 14.6877 8 15.6251 8 17.5C8 19.3749 8 20.3123 8.47746 20.9695C8.63166 21.1817 8.8183 21.3683 9.03054 21.5225C9.6877 22 10.6251 22 12.5 22H17.5C19.3749 22 20.3123 22 20.9695 21.5225C21.1817 21.3683 21.3683 21.1817 21.5225 20.9695C22 20.3123 22 19.3749 22 17.5Z" stroke="currentColor" stroke-width="1.5" />
+                  <path d="M16.5 16L17.4199 16.7929C17.8066 17.1262 18 17.2929 18 17.5C18 17.7071 17.8066 17.8738 17.4199 18.2071L16.5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M13.5 16L12.5801 16.7929C12.1934 17.1262 12 17.2929 12 17.5C12 17.7071 12.1934 17.8738 12.5801 18.2071L13.5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M2.5 6H19.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              </div>
+              <h3 class="text-xl font-bold">Web development</h3>
+            </div>
+            <div class="text-center inline-block cursor-pointer">
+              <div class="p-10 bg-[#2f20ba38] m-10 rounded-full  hover:scale-110 duration-200">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="48" height="48" 
+                  color="#2f20ba"
+                  fill="none"
+                >
+                  <path
+                    d="M7.49478 13.753C10.5833 10.1644 17.5788 3.15478 20.5387 3.00445C22.3699 2.82906 18.7218 9.32547 10.0785 16.4339M11.4581 10.0449L13.7157 12.3249M3 20.8546C3.70948 18.3472 3.26187 19.5794 3.50407 16.6919C3.63306 16.2644 3.89258 14.9377 5.51358 14.2765C7.35618 13.5249 8.70698 14.6611 9.05612 15.195C10.0847 16.3102 10.2039 17.6952 9.05612 19.2774C7.9083 20.8596 4.50352 21.2527 3 20.8546Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold">Graphic design</h3>
+            </div>
+            <div class="text-center inline-block cursor-pointer">
+              <div class="p-10 bg-[#2f20ba38] m-10 rounded-full hover:scale-110 duration-200">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="48" height="48" 
+                  color="#2f20ba"
+                  fill="none"
+                >
+                  <path
+                    d="M17.5 17.5L22 22"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C15.9706 20 20 15.9706 20 11Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.2531 9.31112C13.3579 8.04662 11.4232 7.01413 9.94467 7.70685C8.09769 8.57218 8.25873 10.7594 10.5399 10.8751C11.555 10.9265 12.4429 10.8169 13.0463 11.4708C13.6497 12.1248 13.9112 13.7901 12.1325 14.3553C10.3539 14.9204 8.5 13.9125 8.5 12.6831M10.971 6.5V7.47767M10.971 14.7204V15.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold">SEO Marketing</h3>
+            </div>
+          </div>
+        </center>
+      </div>
+     </section>
+      <!-- services end here -->
+      <!-- Team start here -->
+       <section>
+        <div class="">
+          <center>
+            <h1
+              class="text-black py-10 text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-bold"
+            >
+              Our <span class="text-indigo-600">Team</span>
+            </h1>
+            <p class="px-10">
+              At Connect Agency, our team is the heart of our success. Each member
+              brings unique skills and creativity, working together to deliver
+              innovative solutions for our clients. We pride ourselves on a
+              collaborative culture that fosters growth, excellence, and a shared
+              passion for digital innovation.
+            </p>
+          </center>
+        </div>
+        <div class="m-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+          <div class="team-box m-2 block text-center p-10 rounded-md">
+            <center>
+              <img
+                src="./abdullahalnirbo.png"
+                alt=""
+                class="border-2 border-[#74574a] w-48 rounded-full my-5"
+              />
+            </center>
+            <h3 class="">Abdullah Al Nirob</h3>
+            <h1 class="mt-4 text-xl text-indigo-600">Web Developer</h1>
+            <div class="flex mt-5 items-center justify-center">
+              <a target="_blank" href="https://www.facebook.com/dev.abdullahalnirob"
+                ><img src="./fb.svg" class="p-2 cursor-pointer" />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/dev.abdullahalnirob/"
+                ><img src="./insta.svg" class="p-2 cursor-pointer" />
+              </a>
+            </div>
+          </div>
+          <div class="team-box m-2 block text-center p-10 rounded-md">
+            <center>
+              <img
+                src="./belal.jpg"
+                alt=""
+                class="border-2 border-[#ffa300] w-48 rounded-full my-5"
+              />
+            </center>
+            <h3 class="">Belal Uddin</h3>
+            <h1 class="mt-4 text-xl text-indigo-600">Web Developer</h1>
+            <div class="flex mt-5 items-center justify-center">
+              <a target="_blank" href="https://www.facebook.com/devbelal10"
+                ><img src="./fb.svg" class="p-2 cursor-pointer"
+              /></a>
+              <a target="_blank" href="https://www.instagram.com/_belaluddin_29/"
+                ><img src="./insta.svg" class="p-2 cursor-pointer"
+              /></a>
+            </div>
+          </div>
+          <div class="team-box m-2 block text-center p-10 rounded-md">
+            <center>
+              <img
+                src="./jubayer.png"
+                alt=""
+                class="border-2 border-[#fd53aa] w-48 rounded-full my-5"
+              />
+            </center>
+            <h3 class="px-1">Jubayer Chowdhury</h3>
+            <h1 class="mt-4 text-xl text-indigo-600">Digital Marketar</h1>
+            <div class="flex mt-5 items-center justify-center">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100069728080074"
+                ><img src="./fb.svg" class="p-2 cursor-pointer"
+              /></a>
+              <a target="_blank" href="https://www.instagram.com/jubayer_vai_01_"
+                ><img src="./insta.svg" class="p-2 cursor-pointer"
+              /></a>
+            </div>
+          </div>
+    
+          <div class="team-box m-2 block text-center p-10 rounded-md">
+            <center>
+              <img src="./jubayer.png" alt="" class="w-48 rounded-full my-5" />
+            </center>
+            <h3 class="">Jubayer Chowdhury</h3>
+            <h1 class="mt-4 text-xl text-indigo-600">Digital Marketar</h1>
+            <div class="flex mt-5 items-center justify-center">
+              <img src="./fb.svg" class="p-2 cursor-pointer" />
+              <img src="./insta.svg" class="p-2 cursor-pointer" />
+            </div>
+          </div>
+        </div>
+       </section>
+      <!-- Team end here -->
+
+   <div class="p2"></div>
+
+      <div class="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
+            <div class="max-w-xl lg:max-w-lg">
+              <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Contact Us.</h2>
+              <div class="mt-6 flex max-w-md gap-x-4">
+                <label for="email-address" class="sr-only">Full name</label>
+                <input id="name" name="name" type="name" autocomplete="name" required class="min-w-0 outline-none flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" placeholder="Full name">
+                <label for="email-address" class="sr-only">Email address</label>
+                <input id="email-address" name="email" type="email" autocomplete="email" required class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" placeholder="Email">
+                <button type="submit" class="flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Send</button>
+              </div>
+            </div>
+            <dl class="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
+              <div class="flex flex-col items-start">
+                <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                  <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+                  </svg>
+                </div>
+                <dt class="mt-4 font-semibold text-white">Weekly articles</dt>
+                <dd class="mt-2 leading-7 text-gray-400">Receive the latest trends and best practices in web development, design, and digital strategy every week.</dd>
+              </div>
+              <div class="flex flex-col items-start">
+                <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                  <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.05 4.575a1.575 1.575 0 10-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 013.15 0v1.5m-3.15 0l.075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 013.15 0V15M6.9 7.575a1.575 1.575 0 10-3.15 0v8.175a6.75 6.75 0 006.75 6.75h2.018a5.25 5.25 0 003.712-1.538l1.732-1.732a5.25 5.25 0 001.538-3.712l.003-2.024a.668.668 0 01.198-.471 1.575 1.575 0 10-2.228-2.228 3.818 3.818 0 00-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0116.35 15m.002 0h-.002" />
+                  </svg>
+                </div>
+                <dt class="mt-4 font-semibold text-white">No spam</dt>
+                <dd class="mt-2 leading-7 text-gray-400">We respect your privacy. You'll only receive valuable content and never any spam.</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+        <div class="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">
+          <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        </div>
+      </div>
+
+
+      <!-- Container -->
+    
+
+
+      <footer class="bg-white">
+        <div class="mx-auto max-w-screen-xl space-y-8 px-4 py-5 sm:px-6 lg:space-y-12 lg:px-8">
+          <div class="sm:flex sm:items-center sm:justify-between">
+            <div class="text-teal-600">
+              <img src="./asstes/logo/connct_logo_nav.png " alt="">
+            </div>
+      
+            <ul class="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end">
+              <li>
+                <a
+                  href="#"
+                  rel="noreferrer"
+                  target="_blank"
+                  class="text-gray-700 transition hover:opacity-75"
+                >
+                  <span class="sr-only">Facebook</span>
+      
+                  <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill-rule="evenodd"
+                      d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </li>
+      
+              <li>
+                <a
+                  href="#"
+                  rel="noreferrer"
+                  target="_blank"
+                  class="text-gray-700 transition hover:opacity-75"
+                >
+                  <span class="sr-only">Instagram</span>
+      
+                  <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </li>
+      
+              <li>
+                <a
+                  href="#"
+                  rel="noreferrer"
+                  target="_blank"
+                  class="text-gray-700 transition hover:opacity-75"
+                >
+                  <span class="sr-only">Twitter</span>
+      
+                  <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+                    />
+                  </svg>
+                </a>
+              </li>
+      
+              <li>
+                <a
+                  href="#"
+                  rel="noreferrer"
+                  target="_blank"
+                  class="text-gray-700 transition hover:opacity-75"
+                >
+                  <span class="sr-only">GitHub</span>
+      
+                  <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </li>
+      
+              <li>
+                <a
+                  href="#"
+                  rel="noreferrer"
+                  target="_blank"
+                  class="text-gray-700 transition hover:opacity-75"
+                >
+                  <span class="sr-only">Dribbble</span>
+      
+                  <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+      
+          <div
+            class="grid grid-cols-1 gap-8 border-t border-gray-100 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16"
+          >
+            <div>
+              <p class="font-medium text-gray-900">Services</p>
+      
+              <ul class="mt-6 space-y-4 text-sm">
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75">Web Development</a>
+                </li>
+      
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Web Design </a>
+                </li>
+      
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Graphics Design </a>
+                </li>
+      
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> SEO Optimisation </a>
+                </li>
+              </ul>
+            </div>
+      
+            <div>
+              <p class="font-medium text-gray-900">Company</p>
+      
+              <ul class="mt-6 space-y-4 text-sm">
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> About </a>
+                </li>
+      
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Meet the Team </a>
+                </li>
+      
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
+                </li>
+              </ul>
+            </div>
+      
+            <div>
+              <p class="font-medium text-gray-900">Helpful Links</p>
+      
+              <ul class="mt-6 space-y-4 text-sm">
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Contact </a>
+                </li>
+      
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> FAQs </a>
+                </li>
+      
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Live Chat </a>
+                </li>
+              </ul>
+            </div>
+      
+            <div>
+              <p class="font-medium text-gray-900">Legal</p>
+      
+              <ul class="mt-6 space-y-4 text-sm">
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Accessibility </a>
+                </li>
+      
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Returns Policy </a>
+                </li>
+      
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Refund Policy </a>
+                </li>
+      
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Hiring Statistics </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      
+          <p class="text-xs text-gray-500">&copy; 2024. Connect Agency. All rights reserved.</p>
+        </div>
+      </footer>
+
+
+    <!-- Js linking  -->
+     <script src="./js/main.js"></script>
+</body>
+</html>
